@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Fitness Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('Back_groundimage.jpg') no-repeat center center fixed; 
+            background-size: cover;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: rgba(53, 66, 74, 0.8);
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+        }
+        header .branding {
+            float: left;
+        }
+        header .branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .about-section {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .about-section h2 {
+            margin: 0 0 15px;
+            color: #35424a;
+        }
+        .about-section p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .team {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .team-member {
+            flex: 1;
+            margin: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 4px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .team-member h3 {
+            margin: 10px 0 5px;
+        }
+        .team-member p {
+            margin: 0;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="branding">
+                <h1>Fitness Tracker</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="current">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="about-section">
+            <h2>About Us</h2>
+            <p>Welcome to Fitness Tracker! Our mission is to help you achieve your fitness goals by providing an easy-to-use platform to track your progress, set goals, and stay motivated. Whether you are just starting your fitness journey or you are a seasoned athlete, we have the tools and resources you need to succeed.</p>
+            <p>Our team is dedicated to making fitness accessible and enjoyable for everyone. We believe that with the right tools and support, anyone can achieve their fitness goals. Meet our team below:</p>
+
+            <div class="team">
+                <div class="team-member">
+                    <h3>John Doe</h3>
+                    <p>Founder &amp; CEO</p>
+                </div>
+                <div class="team-member">
+                    <h3>Jane Smith</h3>
+                    <p>Head of Product</p>
+                </div>
+                <div class="team-member">
+                    <h3>Sam Johnson</h3>
+                    <p>Lead Developer</p>
+                </div>
+                <div class="team-member">
+                    <h3>Lisa Brown</h3>
+                    <p>Marketing Manager</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
